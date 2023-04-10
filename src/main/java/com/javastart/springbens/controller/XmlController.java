@@ -22,6 +22,6 @@ public class XmlController {
 
     @GetMapping("/xml")
     public String helloXml(){
-
+        return helloXmlService.hello();
     }
 }
